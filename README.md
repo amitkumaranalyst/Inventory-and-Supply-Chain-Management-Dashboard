@@ -26,7 +26,6 @@ The dashboard enables stakeholders to gain real-time visibility into inventory l
 
 ## 📊 Dashboard Preview
 
-"C:\Users\AMIT RAJPOOT\Downloads\Inventory and Supply Chain Dashboard.pdf"
 
 ## 📌 Key Performance Indicators (KPIs)
 
