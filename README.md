@@ -1,55 +1,215 @@
-# 📦 Inventory and Supply Chain Management Dashboard (Power BI)
+# 📦 Inventory & Supply Chain Management Dashboard | Power BI
 
-An interactive Power BI dashboard analyzing inventory health, warehouse efficiency, transportation costs, and order fulfillment performance across regions and product categories.
+![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge\&logo=powerbi\&logoColor=black)
+![DAX](https://img.shields.io/badge/DAX-0078D4?style=for-the-badge)
+![Power Query](https://img.shields.io/badge/Power%20Query-217346?style=for-the-badge)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge\&logo=microsoftexcel\&logoColor=white)
 
-![Dashboard Preview](Inventory_and_Supply_Chain_Dashboard.png)
+## 📖 Project Overview
 
-## 📊 Project Overview
+The **Inventory & Supply Chain Management Dashboard** is an interactive business intelligence solution developed using **Microsoft Power BI** to monitor and analyze key supply chain performance metrics.
 
-This dashboard was built to help supply chain and operations teams monitor key inventory KPIs, identify regional cost inefficiencies, and track order fulfillment health at a glance. It consolidates data across **4 regions** (North, South, East, West) and **4 product categories** (Accessories, Clothing, Electronics, Furniture).
+The dashboard enables stakeholders to gain real-time visibility into inventory levels, warehouse utilization, transportation costs, inventory turnover, lead times, and order fulfillment status. Interactive filters allow users to explore data across different regions and product categories, supporting data-driven operational and strategic decision-making.
 
-## 🎯 Key Metrics Tracked
+---
 
-| Metric | Value | What It Means |
-|---|---|---|
-| Warehouse Utilization | 34.08% | Current warehouse capacity in use (gauge target: 75%) |
-| Days Sales of Inventory (DSI) | 15.56 days | Avg. number of days inventory is held before sale |
-| Inventory Turnover Ratio | 23.47 | How efficiently inventory is sold/replaced over a period |
+## 🎯 Business Objectives
 
-## 🔍 Key Insights
+* Monitor overall inventory performance
+* Improve warehouse utilization
+* Track transportation expenses
+* Analyze inventory turnover efficiency
+* Reduce backorders and delivery delays
+* Support strategic supply chain planning
 
-- **Warehouse capacity is underutilized** — running at ~34% against a 75% target, suggesting room for consolidation or reduced storage overhead.
-- **Order fulfillment is strong overall**: of all orders tracked, 838 were fulfilled vs. 248 pending and 114 canceled — a healthy fulfillment rate, though the pending bucket is worth monitoring.
-- **Units sold grew sharply from 2020 to 2022** (54.9K → 191.8K) and have since plateaued (~195K-198K in 2023-2024), indicating the business may be entering a maturity phase after rapid growth.
-- **Transportation costs are fairly evenly distributed** across regions, with the West region trending slightly higher across most categories.
-- **Lead times are consistent across categories** (4-5K days aggregate), with Accessories showing the lowest cumulative lead time.
-- **Inventory levels by category/region** show Electronics and Clothing carrying the highest stock volumes, useful for identifying potential overstock or understock risk by region.
+---
 
-## 🛠️ Tools & Techniques Used
+## 📊 Dashboard Preview
 
-- **Power BI Desktop** — data modeling, DAX measures, interactive visuals
-- **Interactive slicers** — filter by Region and Category
-- Visuals used: KPI cards, gauge chart, clustered bar/column charts, donut chart, area/line chart
+> **Replace the image below with your dashboard screenshot.**
 
-## 📁 Repository Contents
+```text
+Images/dashboard.png
+```
+
+```markdown
+![Dashboard](Images/dashboard.png)
+```
+
+---
+
+## 📌 Key Performance Indicators (KPIs)
+
+| KPI                           | Description                                                 |
+| ----------------------------- | ----------------------------------------------------------- |
+| Warehouse Utilization         | Measures warehouse capacity utilization (%)                 |
+| Inventory Turnover Ratio      | Indicates how efficiently inventory is sold and replenished |
+| Days Sales of Inventory (DSI) | Average number of days inventory remains in stock           |
+
+---
+
+## 📈 Dashboard Features
+
+### 📦 Inventory Analysis
+
+* Inventory Level by Category
+* Inventory Distribution by Region
+* Inventory Turnover Monitoring
+
+### 🚚 Supply Chain Analysis
+
+* Transportation Cost Analysis
+* Lead Time Analysis
+* Warehouse Utilization
+
+### 📊 Sales Analysis
+
+* Units Sold Trend
+* Category-wise Performance
+* Regional Performance
+
+### 📋 Order Management
+
+* Backorder Status
+* Order Fulfillment Tracking
+* Pending vs Completed Orders
+
+### 🎛 Interactive Filters
+
+* Region
+* Product Category
+
+---
+
+## 🛠 Tools & Technologies
+
+| Technology       | Purpose                        |
+| ---------------- | ------------------------------ |
+| Power BI Desktop | Dashboard Development          |
+| Power Query      | Data Cleaning & Transformation |
+| DAX              | KPI Calculations & Measures    |
+| Excel / CSV      | Data Source                    |
+| Data Modeling    | Relationship Management        |
+
+---
+
+## 📂 Data Model
+
+The dashboard follows a star-schema-inspired data model consisting of:
+
+* Inventory Data
+* Sales Data
+* Transportation Data
+* Warehouse Data
+* Order Data
+
+Relationships were created to enable efficient filtering and accurate KPI calculations.
+
+---
+
+## 📌 Key Visualizations
+
+* KPI Cards
+* Clustered Bar Chart
+* Stacked Column Chart
+* Matrix Visualization
+* Interactive Slicers
+* Regional Analysis
+* Category-wise Comparison
+
+---
+
+## 💡 Business Insights
+
+The dashboard enables businesses to:
+
+* Identify regions with higher transportation costs.
+* Monitor warehouse capacity utilization.
+* Evaluate inventory turnover performance.
+* Detect categories with longer lead times.
+* Track order fulfillment efficiency.
+* Identify products contributing to backorders.
+
+---
+
+## 📂 Project Structure
 
 ```
+Inventory-Supply-Chain-Dashboard/
+│
+├── Dashboard.pbix
+├── Inventory and Supply Chain Dashboard.pdf
 ├── README.md
-├── Inventory_and_Supply_Chain_Dashboard.pbix   # Power BI source file
-├── Inventory_and_Supply_Chain_Dashboard.pdf     # Exported report (static view)
-├── Inventory_and_Supply_Chain_Dashboard.png     # Dashboard preview image
-└── data/                                        # (optional) source dataset if shareable
+├── Images/
+│     └── dashboard.png
+├── Dataset/
+│     ├── Inventory.csv
+│     ├── Orders.csv
+│     └── Sales.csv
+└── LICENSE
 ```
 
-## 🚀 How to Use
+---
 
-1. Clone this repo
-2. Open `Inventory_and_Supply_Chain_Dashboard.pbix` in Power BI Desktop
-3. Use the Region and Category slicers to explore the data interactively
+## 🚀 Skills Demonstrated
 
-## 👤 Author
+* Business Intelligence
+* Dashboard Design
+* Data Visualization
+* Power BI
+* Power Query
+* DAX
+* Data Cleaning
+* Data Modeling
+* KPI Development
+* Supply Chain Analytics
 
-**[Amit Kumar]**
-Supply Chain / Data Analytics
-[LinkedIn](www.linkedin.com/in/amit-kumar-0135b2291) • [Portfolio]("C:\Users\AMIT RAJPOOT\Downloads\Inventory and Supply Chain Dashboard.pdf") • [Email](kumaramit11656@gmail.com)
+---
 
+## 📚 Future Improvements
+
+* Add Date Hierarchy
+* Forecasting using Time Intelligence
+* Drill-through Reports
+* Dynamic Report Titles
+* Tooltip Pages
+* Row-Level Security (RLS)
+* Mobile Layout Optimization
+* Bookmark Navigation
+* Automated Data Refresh
+
+---
+
+## 📷 Dashboard Highlights
+
+✔ Interactive Dashboard
+
+✔ Dynamic Filters
+
+✔ Business KPIs
+
+✔ Supply Chain Analytics
+
+✔ Inventory Monitoring
+
+✔ Executive-Level Reporting
+
+---
+
+## 👨‍💻 Author
+
+**Amit Kumar**
+
+Metallurgical Engineering Student | Aspiring Data Analyst
+
+**Skills:** Power BI • SQL • Excel • Python • DAX • Power Query
+
+GitHub: https://github.com/YourUsername
+
+LinkedIn: https://linkedin.com/in/YourProfile
+
+---
+
+## ⭐ If you found this project useful
+
+If you like this project, consider giving it a **⭐ Star** on GitHub.
