@@ -49,7 +49,7 @@ This dashboard was built to help supply chain and operations teams monitor key i
 
 ## 👤 Author
 
-**[Your Name]**
+**[Amit Kumar]**
 Supply Chain / Data Analytics
-[LinkedIn](#) • [Portfolio](#) • [Email](#)
+[LinkedIn](www.linkedin.com/in/amit-kumar-0135b2291) • [Portfolio]("C:\Users\AMIT RAJPOOT\Downloads\Inventory and Supply Chain Dashboard.pdf") • [Email](kumaramit11656@gmail.com)
 
