@@ -195,7 +195,7 @@ Metallurgical Engineering Student | Aspiring Data Analyst
 
 GitHub: https://github.com/YourUsername
 
-LinkedIn: https://linkedin.com/in/YourProfile
+LinkedIn: www.linkedin.com/in/amit-kumar-0135b2291
 
 ---
 
