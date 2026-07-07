@@ -193,7 +193,7 @@ Metallurgical Engineering Student | Aspiring Data Analyst
 
 **Skills:** Power BI • SQL • Excel • Python • DAX • Power Query
 
-GitHub: https://github.com/YourUsername
+GitHub: https://github.com/amitkumaranalyst
 
 LinkedIn: www.linkedin.com/in/amit-kumar-0135b2291
 
