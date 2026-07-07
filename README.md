@@ -26,7 +26,7 @@ The dashboard enables stakeholders to gain real-time visibility into inventory l
 
 ## 📊 Dashboard Preview
 
-"C:\Users\AMIT RAJPOOT\Downloads\Inventory and Supply Chain Dashboard_page-0001.zip"
+![Inventory Dashboard](![Uploading Inventory and Supply Chain Dashboard_page-0001.jpg…]())
 
 
 
